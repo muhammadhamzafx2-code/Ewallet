@@ -2,6 +2,12 @@
 require_once 'config.php';
 if (!$_SESSION['user_id']) header('Location: index.php');
 
+
+// Fetch user FIRST
+$stmt = $db->prepare("SELECT * FROM users WHERE id = ?");
+$stmt->execute([$_SESSION['user_id']]);
+$user = $stmt->fetch();
+
 if ($_POST) {
     $card_number = $_POST['card_number'];
     $expiry = $_POST['expiry'];
