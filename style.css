@@ -46,4 +46,19 @@ nav a { color: #667eea; text-decoration: none; font-weight: 500; }
 .success-container { max-width: 500px; }
 .success-icon { font-size: 80px; margin-bottom: 20px; }
 
-@media (max-width: 768px) { .action-buttons { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .action-buttons { grid-template-columns: 1fr; } }/* Withdraw pages */
+.withdraw-new { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); }
+.warning-box { background: #fef3c7; border: 2px solid #f59e0b; border-radius: 12px; padding: 20px; margin-bottom: 30px; }
+.method-selector { background: white; padding: 25px; border-radius: 16px; margin: 20px 0; }
+.method-option { display: flex; align-items: center; padding: 15px; border-radius: 12px; cursor: pointer; transition: background 0.2s; margin-bottom: 10px; }
+.method-option:hover { background: #f8fafc; }
+.method-details { margin-left: 15px; }
+.method-details .icon { font-size: 24px; float: left; margin-right: 15px; }
+.btn-withdraw-large { background: linear-gradient(135deg, #f59e0b, #d97706); width: 100%; }
+
+.verification-box { background: white; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px; }
+.req-list { text-align: left; margin: 20px 0; }
+.req-item { padding: 10px; background: #f0fdf4; border-radius: 8px; margin: 5px 0; }
+
+
+
