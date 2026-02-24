@@ -196,3 +196,23 @@ body.login-page {  /* optional if you add a class to body, else apply to all bod
     border-color: #667eea;
     box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
 }
+
+/* Full-height flex for proper centering */
+html, body {
+    height: 100%;      /* make body take full viewport */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;       /* fallback */
+}
+
+.login-box {
+    max-width: 400px;
+    width: 90%;
+}
