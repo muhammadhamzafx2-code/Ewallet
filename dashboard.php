@@ -20,13 +20,7 @@ if (!$user) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="dashboard">
-    <nav>
-        <div>💰 SecureWallet</div>
-        <div>
-            Hi, <?php echo htmlspecialchars($_SESSION['username']); ?>!
-            <a href="logout.php">Logout</a>
-        </div>
-    </nav>
+  
     <div class="container">
         <div class="balance-card">
             <h2>Balance: $<?php echo number_format($user['balance'], 2); ?></h2>
