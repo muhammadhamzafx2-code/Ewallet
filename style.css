@@ -126,4 +126,18 @@ nav a { color: #667eea; text-decoration: none; font-weight: 500; }
     transform: translateY(-2px);
 }
 
+/* Vertical centering for login and index pages */
+body, html {
+    height: 100%;
+}
 
+.container,
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical center */
+    align-items: center;     /* horizontal center */
+    min-height: 100vh;       /* full viewport height */
+    padding: 20px;
+    gap: 20px;
+}
