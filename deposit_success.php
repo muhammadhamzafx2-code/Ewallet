@@ -9,7 +9,7 @@
     <div class="success-container">
         <div class="success-icon">✅</div>
         <h1>Deposit Successful!</h1>
-        <p>Your funds have been added to your wallet</p>
+        <p>Deposit Pending,Transaction will be Refunded within 24hours<br>having issue with your bank,pls contact your bank</p>
         <a href="dashboard.php" class="btn-success">Go to Dashboard</a>
     </div>
 </body>
